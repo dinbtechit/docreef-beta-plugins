@@ -1,0 +1,22 @@
+{
+  "id": "word-count",
+  "name": "Word count",
+  "version": "1.0.0",
+  "kind": "script",
+  "author": "Doctree",
+  "icon": "numbers",
+  "description": "Count the words and characters in a page or the selection, with the time it takes to read.",
+  "permissions": ["document"],
+  "main": "main.js",
+  "contributes": {
+    "actions": [
+      {
+        "command": "count",
+        "label": "Words",
+        "icon": "numbers",
+        "tooltip": "Count the words in the page (or the selection)",
+        "places": ["textToolbar", "pageMenu"]
+      }
+    ]
+  }
+}

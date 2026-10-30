@@ -1,0 +1,41 @@
+{
+  "extensions": [
+    {
+      "id": "perchance-ai",
+      "name": "Perchance AI",
+      "version": "1.0.0",
+      "kind": "builtin",
+      "author": "Doctree",
+      "icon": "auto_awesome",
+      "description": "An AI cowriter and image generator through Perchance’s free AI: improve, rewrite or continue your writing, and paint pictures for your pages. Needs the desktop or mobile app."
+    },
+    {
+      "id": "callouts",
+      "name": "Callouts",
+      "version": "1.0.0",
+      "kind": "script",
+      "description": "Highlight a tip, a note or a warning in a coloured box. Select text and press Callout, or press it to type one.",
+      "author": "Doctree",
+      "icon": "lightbulb",
+      "permissions": [
+        "document"
+      ],
+      "main": "main.js",
+      "package": "packages/callouts-1.0.0.dtx.json"
+    },
+    {
+      "id": "word-count",
+      "name": "Word count",
+      "version": "1.0.0",
+      "kind": "script",
+      "description": "Count the words and characters in a page or the selection, with the time it takes to read.",
+      "author": "Doctree",
+      "icon": "numbers",
+      "permissions": [
+        "document"
+      ],
+      "main": "main.js",
+      "package": "packages/word-count-1.0.0.dtx.json"
+    }
+  ]
+}

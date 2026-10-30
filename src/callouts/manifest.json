@@ -1,0 +1,25 @@
+{
+  "id": "callouts",
+  "name": "Callouts",
+  "version": "1.0.0",
+  "kind": "script",
+  "author": "Doctree",
+  "icon": "lightbulb",
+  "description": "Highlight a tip, a note or a warning in a coloured box. Select text and press Callout, or press it to type one.",
+  "permissions": ["document"],
+  "main": "main.js",
+  "contributes": {
+    "actions": [
+      {
+        "command": "insert",
+        "label": "Callout",
+        "icon": "lightbulb",
+        "tooltip": "Put the selection (or a line you type) in a callout box",
+        "places": ["textToolbar", "selectionToolbar"]
+      }
+    ],
+    "embeds": [
+      { "type": "box", "html": "callout.html", "height": 96 }
+    ]
+  }
+}
